@@ -21,4 +21,5 @@ urlpatterns = [
     path('course/',include('course.urls')),
     path('student_details/',include('student_details.urls')),
     path('payment/',include('payment.urls')),
+    path('inquiry/',include('inquiry.urls')),
 ]
