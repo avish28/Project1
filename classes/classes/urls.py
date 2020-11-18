@@ -22,4 +22,5 @@ urlpatterns = [
     path('student_details/',include('student_details.urls')),
     path('payment/',include('payment.urls')),
     path('inquiry/',include('inquiry.urls')),
+    path('admission/',include('admission.urls')),
 ]

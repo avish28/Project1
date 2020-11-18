@@ -1,0 +1,6 @@
+from django.shortcuts import render
+
+# Create your views here.
+
+def admission(request):
+    return render(request,"templates/admission/admission_html.html")
