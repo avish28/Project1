@@ -3,5 +3,5 @@ from . import views
 
 urlpatterns=[
 
-    path('',views.payment,name="payment")
+    path("",views.attandance,name='attandance')
 ]

@@ -14,7 +14,7 @@ class admission_table(models.Model):
     no_of_days=models.IntegerField()
     remarks=models.TextField()
     pending_fees=models.IntegerField()
-
+    batch_time=models.CharField(max_length=10,blank=True)
 
     def __str__(self):
         return f"{self.id}-{self.student_id}-{self.course_id}"
